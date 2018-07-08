@@ -13,11 +13,6 @@ key2 		=	'your key'
 secret2 	=	'your secret'
 
 class Strategy():
-	## fteth1:
-	## buy condition:  first buy price , once failed try again;
-	## sell condition: sell out with buy_price*profit_margin
-	## once failed, down price to previously one *99.9%;
-	## try sell again until all sold out;
 	def fteth(self, profit_margin, volumn_rate):
 		fcoin = Fcoin()
 		#print(fcoin.get_symbols())
